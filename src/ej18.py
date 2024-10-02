@@ -1,0 +1,6 @@
+nom = input("Escriba su nombre: ")
+ap1 = input("Escriba su primer apellido: ")
+ap2 = input("Escriba su segundo apellido: ")
+print(nom .upper(), ap1 .upper(), ap2 .upper())
+print(nom .lower(), ap1 .lower(), ap2 .lower())
+print(nom [0:1] .upper(),ap1 [0:1] .upper(), ap2 [0:1] .upper())
