@@ -1,4 +1,4 @@
 hora = int(input("Horas de trabajo: "))
-cost = int(input("Coste por hora: "))
-imp = hora*cost
-print(f"Importe total: {imp} ")
+coste = int(input("Coste por hora: "))
+importe = hora*coste
+print(f"Importe total: {importe} ")

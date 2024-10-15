@@ -1,10 +1,2 @@
-def saludo(nom):
-    return "Hola, " + nom + "."
-
-
-def main():
-    nombre = input("Introduzca su nombre: ")
-    print(saludo(nombre))
-    
-if __name__ == "__main__":
-    main()
+nombre = input("Escriba su nombre: ")
+print(f"Hola {nombre}.")
