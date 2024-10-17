@@ -4,7 +4,9 @@ def main():
     num3 = float(input("Introduzca un última número: "))
     suma = num1 + num2 + num3
     suma = round(suma, 2)
+    
     print(f"La suma de dichos números es de {suma}")
+    
     
 if __name__ == "__main__":
     main()

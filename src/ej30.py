@@ -16,14 +16,12 @@ def main():
         cont = cont + 1
         print(f"{numero_inicio}-", end="")
         numero_inicio = numero_inicio + incremento
+        
     while (cont < total_serie):
         cont = cont + 1
         print(f"{numero_inicio}", end="")
         numero_inicio = numero_inicio + incremento          
   
     
-        
-        
-
 if __name__ == "__main__":
     main()
