@@ -1,11 +1,10 @@
 def calcular_suma(n):
     suma = (n*(n+1))/2
-    return f"La suma desde 1 hasta {n} es de {suma}"
+    return suma
 
 def main():
     numero = int(input("Introduce un número entero positivo: "))
-    resultado = calcular_suma(numero)
-    print(resultado)
+    print(f"La suma desde 1 hasta {numero} es de {calcular_suma(numero)}")
     
 if __name__ == "__main__":
     main()

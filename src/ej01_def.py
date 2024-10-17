@@ -1,12 +1,12 @@
-def saludo(nom):
-    return "Hola, " + nom + "."
+def intro_nombre(nombre: str):
+    return nombre
 
-def intro_nombre():
-    return input("Introduzca su nombre: ")
 
 def main():
-    nombre = intro_nombre
-    print(saludo(nombre))
-    
+    nombre = input("Introduzca su nombre: ")
+    saludo = intro_nombre(nombre)
+    print(f"Hola, {saludo}.")
+
 if __name__ == "__main__":
     main()
+    
