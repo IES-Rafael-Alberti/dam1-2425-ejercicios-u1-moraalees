@@ -5,7 +5,7 @@ def main():
         
     suma = (n*(n+1))/2
     
-    print(f"La suma de todos los números enteros desde 0 hasta {n} es de: {suma}")
+    print(f"La suma de todos los números enteros desde 1 hasta {n} es de: {suma}")
 
 
 if __name__ == "__main__":
